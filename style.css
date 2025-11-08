@@ -345,6 +345,12 @@ footer {
     margin-bottom: 3%;
 }
 
+.telefone{
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+
 .email {
     font-size: 20px;
     margin-bottom: 3%;
@@ -457,4 +463,5 @@ button:hover{
 
   [data-theme="dark"] #cabecalho{
     background-color: #cccaca;
+
   }
