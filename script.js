@@ -18,11 +18,13 @@ themeToggle.addEventListener('click', () => {
 function salvar() {
       
       let nome = document.getElementById("nome").value;
+      let telefone = document.getElementById("telefone").value;
       let email = document.getElementById("email").value;
 
       
       let usuario = {
         nome: nome,
+        telefone: telefone,
         email: email
       };
 
@@ -41,6 +43,6 @@ function salvar() {
 
       
       document.getElementById("resultado").innerText =
-        ` Nome: ${usuario.nome} | Email: ${usuario.email}`;
+        ` Nome: ${usuario.nome} |  Telefone: ${usuario.telefone} | Email: ${usuario.email}`;
     }
 
